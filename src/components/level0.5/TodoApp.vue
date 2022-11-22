@@ -34,3 +34,9 @@ function addTodo(){
   <input type="text" data-test="new-todo-input" v-model="newTodo"/>
   <button @click="addTodo" data-test="new-todo-btn">add todo</button>
 </template>
+
+<style>
+.completed {
+  text-decoration: line-through;
+}
+</style>
